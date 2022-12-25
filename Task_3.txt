@@ -1,0 +1,1 @@
+SELECT * FROM Character WHERE level > 45 AND race = 'dwarf'

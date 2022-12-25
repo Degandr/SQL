@@ -1,0 +1,7 @@
+1) SELECT * FROM Customers WHERE City = 'London'
+2) SELECT CustomerName, ContactName FROM Customers WHERE Address like '%23'
+3) SELECT Distinct City FROM Customers
+4) SELECT * FROM Customers WHERE PostalCode LIKE '0%'
+5) SELECT * FROM Customers WHERE Country IS NOT 'USA'
+6) SELECT * FROM Customers WHERE Country = 'France' ORDER BY ContactName DESC
+7) SELECT * FROM Customers WHERE Country IN ('Germany', 'USA') LIMIT 10
